@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore"/>
+    <PackageReference Include="FluentValidation.AspNetCore"/>
+    <PackageReference Include="Serilog.Sinks.SpectreConsole"/>
+    <PackageReference Include="Bogus"/>
+    <PackageReference Include="Serilog.Sinks.Console"/>
+    <PackageReference Include="Serilog"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InvoiceManagement.Domain\InvoiceManagement.Domain.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstractions\"/>
+  </ItemGroup>
+</Project>

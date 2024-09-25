@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json.schemainvoicemanagementapi.org/launchsettings.json",
+  "profiles": {
+    "InvoiceManagement.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:8096;http://localhost:8095",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+

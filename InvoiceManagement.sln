@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Api", "src\InvoiceManagement.Api\InvoiceManagement.Api.csproj", "{B49237C0-FAA3-46FC-B1B8-8697B25B95C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_items", "{5F6B8EA5-7897-4C51-8EEA-322E0E9A4C55}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		nuget.config = nuget.config
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBF7BC22-00F3-4881-9618-1483CD125E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Domain", "src\InvoiceManagement.Domain\InvoiceManagement.Domain.csproj", "{87962FCC-B609-45D4-89F5-55A549A0E24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Application", "src\InvoiceManagement.Application\InvoiceManagement.Application.csproj", "{3E1F2916-FC92-4455-99E0-19F0549EB4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Persistence", "src\InvoiceManagement.Persistence\InvoiceManagement.Persistence.csproj", "{C09795DD-99C5-44F7-A006-B26A31B7F24E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Infrastructure", "src\InvoiceManagement.Infrastructure\InvoiceManagement.Infrastructure.csproj", "{ABFF0CE9-B16A-4082-9FD2-A581BD815B15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CE4B254F-B60B-42B1-990D-13C2F737E3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Application.Tests", "tests\InvoiceManagement.Application.Tests\InvoiceManagement.Application.Tests.csproj", "{11B90BBC-ADEC-43EE-BD90-E531CDD022A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagement.Repository.Tests", "tests\InvoiceManagement.Repository.Tests\InvoiceManagement.Repository.Tests.csproj", "{09F88824-1E89-4580-8498-5114B3204763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B49237C0-FAA3-46FC-B1B8-8697B25B95C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49237C0-FAA3-46FC-B1B8-8697B25B95C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49237C0-FAA3-46FC-B1B8-8697B25B95C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49237C0-FAA3-46FC-B1B8-8697B25B95C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87962FCC-B609-45D4-89F5-55A549A0E24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87962FCC-B609-45D4-89F5-55A549A0E24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87962FCC-B609-45D4-89F5-55A549A0E24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87962FCC-B609-45D4-89F5-55A549A0E24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1F2916-FC92-4455-99E0-19F0549EB4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1F2916-FC92-4455-99E0-19F0549EB4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1F2916-FC92-4455-99E0-19F0549EB4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1F2916-FC92-4455-99E0-19F0549EB4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09795DD-99C5-44F7-A006-B26A31B7F24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09795DD-99C5-44F7-A006-B26A31B7F24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09795DD-99C5-44F7-A006-B26A31B7F24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09795DD-99C5-44F7-A006-B26A31B7F24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFF0CE9-B16A-4082-9FD2-A581BD815B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFF0CE9-B16A-4082-9FD2-A581BD815B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFF0CE9-B16A-4082-9FD2-A581BD815B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFF0CE9-B16A-4082-9FD2-A581BD815B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B90BBC-ADEC-43EE-BD90-E531CDD022A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B90BBC-ADEC-43EE-BD90-E531CDD022A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B90BBC-ADEC-43EE-BD90-E531CDD022A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B90BBC-ADEC-43EE-BD90-E531CDD022A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F88824-1E89-4580-8498-5114B3204763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F88824-1E89-4580-8498-5114B3204763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F88824-1E89-4580-8498-5114B3204763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F88824-1E89-4580-8498-5114B3204763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B49237C0-FAA3-46FC-B1B8-8697B25B95C3} = {FBF7BC22-00F3-4881-9618-1483CD125E9D}
+		{87962FCC-B609-45D4-89F5-55A549A0E24D} = {FBF7BC22-00F3-4881-9618-1483CD125E9D}
+		{3E1F2916-FC92-4455-99E0-19F0549EB4F8} = {FBF7BC22-00F3-4881-9618-1483CD125E9D}
+		{C09795DD-99C5-44F7-A006-B26A31B7F24E} = {FBF7BC22-00F3-4881-9618-1483CD125E9D}
+		{ABFF0CE9-B16A-4082-9FD2-A581BD815B15} = {FBF7BC22-00F3-4881-9618-1483CD125E9D}
+		{11B90BBC-ADEC-43EE-BD90-E531CDD022A1} = {CE4B254F-B60B-42B1-990D-13C2F737E3AE}
+		{09F88824-1E89-4580-8498-5114B3204763} = {CE4B254F-B60B-42B1-990D-13C2F737E3AE}
+	EndGlobalSection
+EndGlobal
