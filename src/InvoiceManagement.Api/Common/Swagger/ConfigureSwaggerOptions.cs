@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BuildingBlocks.Swagger;
+namespace InvoiceManagement.Api.Common.Swagger;
 
 /// <summary>
 ///     Configuration options for SwaggerGenOptions to generate Swagger documents with API versioning.

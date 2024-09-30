@@ -1,8 +1,8 @@
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Application.Abstractions.Messaging;
-using InvoiceManagement.Application.Data;
 using MediatR;
 
-namespace InvoiceManagement.Application.Core;
+namespace InvoiceManagement.Application.Core.Behaviors;
 
 internal sealed class TransactionBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 where TRequest : class, IRequest<TResponse>

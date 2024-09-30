@@ -1,9 +1,9 @@
+using InvoiceManagement.Application.Abstractions.Common;
 using InvoiceManagement.Application.Abstractions.Messaging;
-using InvoiceManagement.Application.Common;
 using InvoiceManagement.Application.Core.Extensions;
+using InvoiceManagement.Infrastructure.Common;
 using InvoiceManagement.Infrastructure.Emails;
 using InvoiceManagement.Infrastructure.Messaging;
-using InvoiceManagement.Persistence.Common;
 using Microsoft.Extensions.Configuration;
 
 namespace InvoiceManagement.Infrastructure;

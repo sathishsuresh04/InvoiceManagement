@@ -1,4 +1,4 @@
-using InvoiceManagement.Application.Data;
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Domain.Invoices;
 using InvoiceManagement.Persistence.Specifications;
 using Microsoft.EntityFrameworkCore;

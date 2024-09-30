@@ -2,7 +2,7 @@ using FluentValidation.TestHelper;
 using InvoiceManagement.Application.Core.Errors;
 using InvoiceManagement.Application.Invoices.CreateInvoice;
 
-namespace InvoiceManagement.Application.Tests.CreateInvoice;
+namespace InvoiceManagement.Application.Tests.Invoices.CreateInvoice;
 
 public class CreateInvoiceCommandValidatorTests
 {

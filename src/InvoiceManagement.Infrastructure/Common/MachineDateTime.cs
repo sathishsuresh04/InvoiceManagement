@@ -1,6 +1,6 @@
-using InvoiceManagement.Application.Common;
+using InvoiceManagement.Application.Abstractions.Common;
 
-namespace InvoiceManagement.Persistence.Common;
+namespace InvoiceManagement.Infrastructure.Common;
 
 internal sealed class MachineDateTime : IDateTime
 {

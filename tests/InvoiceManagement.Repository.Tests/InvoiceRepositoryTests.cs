@@ -1,12 +1,15 @@
 using FluentAssertions;
-using InvoiceManagement.Application.Common;
+using InvoiceManagement.Application.Abstractions.Common;
 using InvoiceManagement.Domain.Invoices;
 using InvoiceManagement.Persistence;
+using InvoiceManagement.Persistence.Common;
 using InvoiceManagement.Persistence.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using NSubstitute;
+
+namespace InvoiceManagement.Repository.Tests;
 
 public class InvoiceRepositoryTests
 {

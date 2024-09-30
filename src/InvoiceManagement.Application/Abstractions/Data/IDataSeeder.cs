@@ -1,4 +1,4 @@
-namespace InvoiceManagement.Application.Data;
+namespace InvoiceManagement.Application.Abstractions.Data;
 
 public interface IDataSeeder
 {

@@ -4,7 +4,7 @@ using InvoiceManagement.Application.Abstractions.Messaging;
 using MediatR;
 using ValidationException = InvoiceManagement.Application.Core.Exceptions.ValidationException;
 
-namespace InvoiceManagement.Application.Core;
+namespace InvoiceManagement.Application.Core.Behaviors;
 
 internal sealed class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 where TRequest : class, IRequest<TResponse>

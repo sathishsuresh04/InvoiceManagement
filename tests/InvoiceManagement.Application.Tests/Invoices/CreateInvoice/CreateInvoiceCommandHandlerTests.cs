@@ -1,12 +1,12 @@
 using System.Reflection;
 using FluentAssertions;
-using InvoiceManagement.Application.Data;
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Application.Invoices.CreateInvoice;
 using InvoiceManagement.Domain.Invoices;
 using NSubstitute;
 using NSubstitute.ExceptionExtensions;
 
-namespace InvoiceManagement.Application.Tests.CreateInvoice;
+namespace InvoiceManagement.Application.Tests.Invoices.CreateInvoice;
 
 public class CreateInvoiceCommandHandlerTests
 {

@@ -3,7 +3,7 @@ using InvoiceManagement.Domain.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 
-namespace InvoiceManagement.Api;
+namespace InvoiceManagement.Api.Common.Exception;
 
 public class GlobalExceptionHandler(IHostEnvironment environment)
 
@@ -12,7 +12,7 @@ public class GlobalExceptionHandler(IHostEnvironment environment)
 {
     public async ValueTask<bool> TryHandleAsync(
         HttpContext httpContext,
-        Exception exception,
+        System.Exception exception,
         CancellationToken cancellationToken
     )
     {

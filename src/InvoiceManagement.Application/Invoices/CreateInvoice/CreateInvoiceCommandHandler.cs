@@ -1,5 +1,5 @@
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Application.Abstractions.Messaging;
-using InvoiceManagement.Application.Data;
 using InvoiceManagement.Domain.Invoices;
 using InvoiceManagement.Domain.Primitives.Result;
 

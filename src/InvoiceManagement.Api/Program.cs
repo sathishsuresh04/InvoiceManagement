@@ -1,6 +1,6 @@
-using BuildingBlocks.Swagger;
-using BuildingBlocks.Web;
-using InvoiceManagement.Api;
+using InvoiceManagement.Api.Common.Exception;
+using InvoiceManagement.Api.Common.Swagger;
+using InvoiceManagement.Api.Common.Versioning;
 using InvoiceManagement.Application;
 using InvoiceManagement.Application.Core.Extensions;
 using InvoiceManagement.Infrastructure;
@@ -8,6 +8,8 @@ using InvoiceManagement.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 using Serilog;
+
+namespace InvoiceManagement.Api;
 
 internal static class Program
 {

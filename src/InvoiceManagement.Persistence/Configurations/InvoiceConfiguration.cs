@@ -1,5 +1,6 @@
 using Humanizer;
 using InvoiceManagement.Domain.Invoices;
+using InvoiceManagement.Persistence.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -1,10 +1,11 @@
 using System.Reflection;
-using InvoiceManagement.Application.Common;
+using InvoiceManagement.Application.Abstractions.Common;
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Application.Core.Extensions;
-using InvoiceManagement.Application.Data;
 using InvoiceManagement.Domain.Abstractions;
 using InvoiceManagement.Domain.Invoices;
 using InvoiceManagement.Domain.Primitives;
+using InvoiceManagement.Persistence.Common;
 using InvoiceManagement.Persistence.Extensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;

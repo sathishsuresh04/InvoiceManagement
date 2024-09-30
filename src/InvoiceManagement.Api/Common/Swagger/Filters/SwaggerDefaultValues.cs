@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BuildingBlocks.Swagger.Filters;
+namespace InvoiceManagement.Api.Common.Swagger.Filters;
 
 /// <summary>
 ///     An implementation of <see cref="IOperationFilter" /> that applies default values and descriptions to Swagger

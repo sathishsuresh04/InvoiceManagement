@@ -1,4 +1,4 @@
-namespace InvoiceManagement.Application.Common;
+namespace InvoiceManagement.Application.Abstractions.Common;
 
 public interface IDateTime
 {

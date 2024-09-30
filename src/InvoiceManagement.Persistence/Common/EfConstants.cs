@@ -1,4 +1,4 @@
-namespace InvoiceManagement.Persistence;
+namespace InvoiceManagement.Persistence.Common;
 
 public static class EfConstants
 {

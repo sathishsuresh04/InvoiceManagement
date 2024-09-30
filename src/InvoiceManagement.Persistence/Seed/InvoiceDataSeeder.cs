@@ -1,5 +1,5 @@
 using Bogus;
-using InvoiceManagement.Application.Data;
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Domain.Invoices;
 
 namespace InvoiceManagement.Persistence.Seed;

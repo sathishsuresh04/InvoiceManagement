@@ -1,7 +1,8 @@
 using Ardalis.GuardClauses;
+using InvoiceManagement.Application.Abstractions.Data;
 using InvoiceManagement.Application.Core.Extensions;
-using InvoiceManagement.Application.Data;
 using InvoiceManagement.Domain.Invoices;
+using InvoiceManagement.Persistence.Common;
 using InvoiceManagement.Persistence.Repositories;
 using InvoiceManagement.Persistence.Seed;
 using Microsoft.AspNetCore.Builder;

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace InvoiceManagement.Application.Data;
+namespace InvoiceManagement.Application.Abstractions.Data;
 
 public interface IUnitOfWork
 {

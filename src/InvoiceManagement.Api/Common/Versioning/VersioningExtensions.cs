@@ -1,6 +1,6 @@
 using Asp.Versioning;
 
-namespace BuildingBlocks.Web;
+namespace InvoiceManagement.Api.Common.Versioning;
 
 /// <summary>
 ///     Provides extension methods for adding custom versioning to a IServiceCollection.

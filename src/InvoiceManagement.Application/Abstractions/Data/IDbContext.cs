@@ -1,7 +1,7 @@
 using InvoiceManagement.Domain.Primitives;
 using Microsoft.EntityFrameworkCore;
 
-namespace InvoiceManagement.Application.Data;
+namespace InvoiceManagement.Application.Abstractions.Data;
 
 public interface IDbContext
 {

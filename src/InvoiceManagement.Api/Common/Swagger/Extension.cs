@@ -1,11 +1,11 @@
 using System.Reflection;
-using BuildingBlocks.Swagger.Filters;
+using InvoiceManagement.Api.Common.Swagger.Filters;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Unchase.Swashbuckle.AspNetCore.Extensions.Extensions;
 
-namespace BuildingBlocks.Swagger;
+namespace InvoiceManagement.Api.Common.Swagger;
 
 public static class Extensions
 {

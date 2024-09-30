@@ -1,6 +1,7 @@
 using System.Reflection;
 using FluentValidation;
 using InvoiceManagement.Application.Core;
+using InvoiceManagement.Application.Core.Behaviors;
 
 namespace InvoiceManagement.Application;
 

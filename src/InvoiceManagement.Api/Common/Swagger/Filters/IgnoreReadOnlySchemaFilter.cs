@@ -1,7 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BuildingBlocks.Swagger.Filters;
+namespace InvoiceManagement.Api.Common.Swagger.Filters;
 
 /// <summary>
 ///     Schema filter that removes read-only properties from the Swagger schema.
